@@ -33,7 +33,8 @@ const effect_uuid_t * const SL_IID_BASSBOOST = &SL_IID_BASSBOOST_;
 typedef enum
 {
     BASSBOOST_PARAM_STRENGTH_SUPPORTED,
-    BASSBOOST_PARAM_STRENGTH
+    BASSBOOST_PARAM_STRENGTH,
+    BASSBOOST_PARAM_CENTER_FREQUENCY
 } t_bassboost_params;
 
 #if __cplusplus
